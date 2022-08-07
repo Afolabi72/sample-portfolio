@@ -120,7 +120,7 @@ nav ul li a:hover {
 @media screen and (max-width: 700px) {
 
     main {
-        height: 125vh;
+        height: 150vh;
     }
     .container {
         padding-left: 2rem;
@@ -153,7 +153,25 @@ nav ul li a:hover {
 /* mobile */
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
+
+    .photo-trim {
+        margin-left: -5.5rem
+    }
+
+    .text {
+        font-size: 16px;
+        margin-top: -3rem;
+        margin-left: -10rem;
+        width: 100%;
+        text-align: start;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+    }
+    
+    
 
     nav {
         display: initial;
@@ -169,9 +187,9 @@ nav ul li a:hover {
     }
     
     .hamburger i {
-        font-size: 2rem;
+        font-size: 1rem;
         transition: all .3s;
-        margin-left: 15rem;
+        margin-left: 7.5rem;
     }
     
     nav ul {
@@ -217,22 +235,7 @@ nav ul li a:hover {
         margin-left: -5.5rem
     }
 
-    .text {
-        font-size: 1.2rem;
-        margin-top: -3rem;
-        margin-left: -10rem;
-        width: 100%;
-        text-align: start;
-    }
-
-    .logo {
-        font-size: 1.5rem;
-    }
     
-    .hamburger i {
-        margin-left: 5.5rem;
-        font-size: 1.4rem;
-    }
 
    
 }

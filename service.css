@@ -14,7 +14,8 @@
     background: linear-gradient(to top, rgba(0,0,0,.5)50%,rgba(0,0,0,.5)50%), url(./photos/andriyko-podilnyk-jFAG_ixCrsM-unsplash.jpg);
      background-position: center;
      background-size: cover;
-     height: 110vh;
+     background-attachment: fixed;
+     height: 150vh;
 }
 
 .header-cont {
@@ -114,8 +115,12 @@ nav ul li a:hover {
 /* media querries */
 /* media querries */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
 
+    
+.logo {
+    font-size: 1.5rem;
+}
     .hamburger {
         display: initial;
     
@@ -126,8 +131,8 @@ nav ul li a:hover {
 }
 
 .hamburger i {
-    font-size: 2rem;
-    margin-left: 10rem;
+    font-size: 1rem;
+    margin-left: 7.5rem;
     transition: all .3s;
 }
 
@@ -167,9 +172,6 @@ nav ul li a {
 @media screen and (max-width: 300px){
 
 
-.logo {
-    font-size: 1.5rem;
-}
 .hamburger i { 
     margin-left: 5.5rem;
     font-size: 1.4rem;

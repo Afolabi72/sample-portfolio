@@ -84,13 +84,12 @@ nav ul li a:hover {
 /* contact section */
 
 .contac-section {
-    background-color: rgba(144, 228, 228, .5);
-    margin: 0 auto;
+    margin: 0 0 0 -2rem;
 }
 
 .text input {
     padding: 10px 5rem 10px 5px;
-    font-size: 1.2rem;
+    font-size: 13px;
     margin-top: 1rem;
 }
 
@@ -111,7 +110,7 @@ nav ul li a:hover {
     margin-bottom: 1rem;
 }
 .textarea .field {
-    font-size: 1rem;
+    font-size: 12px;
     
 }
 
@@ -135,9 +134,11 @@ button {
 /* media querries */
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
      
-    
+    .logo {
+        font-size: 1.5rem;
+    }
     .hamburger {
         display: initial;
     
@@ -148,8 +149,8 @@ button {
 }
 
 .hamburger i {
-    font-size: 2rem;
-    margin-left: 10rem;
+    font-size: 1rem;
+    margin-left: 7.5rem;
     transition: all .3s;
 }
 
@@ -195,21 +196,19 @@ nav ul li a {
 @media screen and (max-width: 300px){
 
 
-    .logo {
+    /* .logo {
         font-size: 1.5rem;
     }
     .hamburger i { 
         margin-left: 5.5rem;
         font-size: 1.4rem;
-    } 
+    }  */
 
     /* contact section */
-    .contac-section {
-        width: 60vw
+    /* .contac-section {
+        width: 80%;
     }
-    .textarea .field {
-        font-size: 9px;
-    }
+    
     .textarea {
         margin-left: 0.5px;
     }
@@ -221,6 +220,7 @@ nav ul li a {
     
     .contact {
         margin-left: 0;
-    }
-    }
+    
+    } */
 
+}
